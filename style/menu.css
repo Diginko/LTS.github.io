@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/img/taco_background_911x1000.jpg)
+}
+
+.topbar{
+   width: 80%;
+   background-color: rgb(235, 227, 113);
+   /* background-color: #fff; */
+   margin-left: auto;
+   margin-right: auto;
+   /* margin-top: 50px; */
+   padding: 20px;
+   max-width: 1000px;
+   border: 2px solid;
+   /* text-align: center; */
+   
+}
+
+.topbar a {
+   font-size: 2rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-decoration: none;
+   padding-left: 50px;
+}
+
+.topbar a , a:visited {
+   color: black;
+   
+}
+
+
+.topbar a:focus , a:hover{
+   /* color: gray; */
+   text-decoration: underline;
+}
+
+
+
+ .mainbody {
+    width: 80%;
+    background-color: rgb(235, 227, 113);
+   /*  background-color: #fff; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 20px;
+    max-width: 1000px;
+    border: 2px solid;
+    
+  }
+
+  h1{
+    text-align: center;
+    font-size: 5rem;
+    
+  }
+
+
+  .est  {
+    text-align: center;
+    font-style: italic;
+  }
+
+  h2 {
+   margin-top: 30px;
+  }
+
+ hr{
+    height: 3px;
+    border-color: #000;
+    background-color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+ }
+
+ section{
+    font-size: 1.5rem;
+    margin-top: 1px;
+    text-align: center;
+ }
+
+ .delivery{
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+ }
+
+ .item p{
+    
+    display: inline-block;
+    margin-top: 2rem;
+    text-align: left;
+ }
+
+ .food, .drink{
+    width: 75%;
+    font-weight: bold;
+ }
+
+
